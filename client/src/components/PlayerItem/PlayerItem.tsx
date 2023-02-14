@@ -31,7 +31,7 @@ const PlayerItem = ({ nickname, isAlive, score, addInfo }: IPlayer) => {
         </span>
         <FriendRequestButton onClick={onAddUserClick} />
       </div>
-      <span>{score}</span>
+      <span>{`Score: ${score}`}</span>
     </div>
   );
 };
